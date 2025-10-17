@@ -21,6 +21,7 @@ public class PruebaAccesoDatos {
       AD.insertarPropietario("X25", "Jose", 54);
       // Apartado 4
       AD.listarPropiedades("1A");
+      AD.borrarPropietario("1A");
       AD.cerrarConexion();
   }
 }
